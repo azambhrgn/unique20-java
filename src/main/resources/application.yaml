@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://unique20.database.windows.net:1433;database=unique20;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: azkhan
+    password: Unique@2022
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 8080
+
